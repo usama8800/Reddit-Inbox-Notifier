@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Reddit Inbox Notifier Options</title>
+	<link href="options.css" rel="stylesheet" type="text/css" />
+	<script src="options.js"></script>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td><label for="jsonFeed">Unread Messages JSON Feed:</label></td>
+				<td><input id="jsonFeed" type="text" /></td>
+			</tr>
+			<tr>
+				<td><label for="notifications">Show Notifications:</label></td>
+				<td><input id="notifications" type="checkbox" /></td>
+			</tr>
+			<tr>
+				<td colspan="2">Check every <input id="periodInMinutes" type="number" min="1" max="99" value="1"/> minute(s) and <input id="periodInSeconds" type="number" min="0" max="59" /> seconds</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button id="save">Save</button>
+					<span id="status"></span>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

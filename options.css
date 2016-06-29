@@ -1,0 +1,10 @@
+body {
+    padding: 10px;
+}
+td:nth-last-child(2) {
+    text-align: right;
+	white-space: nowrap;
+}
+td {
+    padding: 5px
+}

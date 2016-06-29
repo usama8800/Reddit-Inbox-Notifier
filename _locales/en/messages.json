@@ -1,0 +1,5 @@
+{
+"name": {"message": "Reddit Inbox Notifier"},
+"description": {"message": "Notifies you if you get an inbox message"},
+"actionTitle": {"message": "Reddit Inbox Notifier\n\nNo Unread Messages"}
+}
